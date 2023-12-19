@@ -1,0 +1,33 @@
+.button {
+    inline-size: 32px;
+    block-size: 32px;
+    border: none;                                          /*quitar borde*/
+    background-color: transparent;                      /*el fondo del botton sea transparente*/
+    background-repeat: no-repeat;                   /*que no se repita la imagen*/
+    background-position: center;                 /* centrar imagen*/
+    cursor: pointer;                           /*cuando pasas con el cursor se conbierta en dedo*/
+}
+/**/
+
+.button:active{
+    transform: scale(.9);
+}
+
+#play {
+    background-image: url("../images/play.png");
+
+}
+
+#pause{
+    background-image: url("../images/pause.png");
+}
+
+#forward{
+    background-image: url("../images/fronword.png");
+    
+}
+
+#backward{
+    background-image: url("../images/backword.png");
+
+}

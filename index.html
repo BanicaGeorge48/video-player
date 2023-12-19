@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="player">                                
+            <video id="video_principal" poster="images/BlueNike.jpg"  muted src="https://media.w3.org/2010/05/sintel/trailer.mp4" width="700"></video>
+            
+            
+            <div class="player-overlay">
+                <h2 class='player-title'>video de prueba </h2>
+                <div class="player-actions">
+                    <button class="button" id="backward" title="Retroceder 10s" aria-label="retroceder 10s" > </button>
+                    <button class="button" id="play" title="play" aria-label="play"> </button>
+                    <button class="button" id="pause" title="pause" aria-label="pause" hidden="false" > </button>
+                    <button class="button" id="forward" title="adelantar 10s" aria-label="adelantar 10s" > </button>
+                </div>
+                <div class="player-progress">
+                    <input id="progress" type="range" min="0" value="0" step="1">
+                </div>
+                 
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+
+</body>
+</html>
